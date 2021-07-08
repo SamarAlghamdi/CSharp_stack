@@ -1,0 +1,27 @@
+@model Category;
+
+<div>
+    <h1 class="text-center"><a href="/">Products</a> |Categories</h1>
+    <div class="d-flex justify-content-between mt-3">
+        <div class="col md-6 card p-3 mr-2">
+            <h3 class="text-center">New Category</h3>
+            <form asp-action="AddCat" asp-validation="Home" method="post">
+                <div class="form-group">
+                    <label asp-for="Name">Category Name</label>
+                    <input asp-for="Name" asp-for="Name"/>
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <button class="btn btn-primary">Add</button>
+            </form>
+        </div>
+        <div class="col md-6 card p-3 ml-2">
+            <h3 class="text-center">Existing Categories</h3>
+            <ul>
+                @foreach(var p in ViewBag.AllCategories){
+                    <li class="text-primary"><a href="/category/@p.CategoryId"> @p.Name </a></li>
+                }
+            </ul>
+            
+        </div>
+    </div>
+</div>

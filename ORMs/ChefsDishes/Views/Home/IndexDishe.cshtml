@@ -1,0 +1,32 @@
+<div class=" d-flex justify-content-center row">
+    <h1 class="col-8 text-center" ><a href="/">Chefs</a> | Dishes</h1>
+    <a class="col-2" href="/dishes/new">Add a Dish</a>
+</div>
+
+<h3>Yum, take a look at our tasety dishes!</h3>
+<hr/>
+
+<div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-striped">
+                    <tr>
+                        <th>Name</th>
+                        <th>Chef</th>
+                        <th>Tastiness</th>
+                        <th>Calories</th>
+                    </tr>
+                    @foreach(var dish in ViewBag.AllDishes)
+                    { 
+                            <tr>
+                            <td>@dish.Name</td>
+                            <td>@dish.Creator.FirstName @dish.Creator.LastName</td>
+                            <td>@dish.Tastiness</td>
+                            <td>@dish.Calorais</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+

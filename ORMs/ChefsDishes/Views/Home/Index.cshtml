@@ -1,0 +1,28 @@
+﻿<div class=" d-flex justify-content-center row">
+    <h1 class="col-8 text-center" >Chefs |<a href="/dishes">Dishes</a></h1>
+    <a class="col-2" href="/new">Add a Chef</a>
+</div>
+<h3>Check out our Chefs!</h3>
+<hr/>
+<div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-striped">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th># of Dishes</th>
+                    </tr>
+                    @foreach(var chef in ViewBag.AllChefs)
+                    { int Age = DateTime.Now.Year - chef.DoB.Year;
+                            <tr>
+                            <td>@chef.FirstName @chef.LastName</td>
+                            <td>@Age</td>
+                            <td>@chef.Dishes.Count</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+

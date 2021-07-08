@@ -1,0 +1,30 @@
+@model Product;
+
+<div>
+    <h1>@ViewBag.AllCatProducts.Name</h1>
+    
+    <div class="d-flex justify-content-between mt-3">
+        <div class="col md-6 card p-3 mr-2">
+            <h3 class="text-center">Products</h3>
+            <ul>
+                @foreach(var p in ViewBag.AllCatProducts.ProductsInCat){
+                    <li class="text-primary"> @p.Product.Name </li>
+                }
+            </ul>
+        </div>
+        <div class="col md-6 card p-3 ml-2">
+            <h3 class="text-center">Add Category</h3>
+            <form asp-action="AddProToCat" asp-validation="Home" method="post">
+                <div class="form-group">
+                <select name="pro" class="form-control">
+                @foreach(var p in ViewBag.AllProducts){
+                    <option value="@p.ProductId">@p.Name</option>
+                }       
+                </select>
+                </div>
+                <button class="btn btn-primary">Add</button>
+            </form>
+            
+        </div>
+    </div>
+</div>

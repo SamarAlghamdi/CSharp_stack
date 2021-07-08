@@ -1,0 +1,13 @@
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\bin\Debug\netcoreapp3.1\hello.exe
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\bin\Debug\netcoreapp3.1\hello.deps.json
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\bin\Debug\netcoreapp3.1\hello.runtimeconfig.json
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\bin\Debug\netcoreapp3.1\hello.runtimeconfig.dev.json
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\bin\Debug\netcoreapp3.1\hello.dll
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\bin\Debug\netcoreapp3.1\hello.pdb
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\obj\Debug\netcoreapp3.1\hello.csprojAssemblyReference.cache
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\obj\Debug\netcoreapp3.1\hello.AssemblyInfoInputs.cache
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\obj\Debug\netcoreapp3.1\hello.AssemblyInfo.cs
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\obj\Debug\netcoreapp3.1\hello.csproj.CoreCompileInputs.cache
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\obj\Debug\netcoreapp3.1\hello.dll
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\obj\Debug\netcoreapp3.1\hello.pdb
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\obj\Debug\netcoreapp3.1\hello.genruntimeconfig.cache

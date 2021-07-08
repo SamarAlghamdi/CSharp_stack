@@ -1,0 +1,13 @@
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\bin\Debug\netcoreapp3.1\Pizzles.exe
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\bin\Debug\netcoreapp3.1\Pizzles.deps.json
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\bin\Debug\netcoreapp3.1\Pizzles.runtimeconfig.json
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\bin\Debug\netcoreapp3.1\Pizzles.runtimeconfig.dev.json
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\bin\Debug\netcoreapp3.1\Pizzles.dll
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\bin\Debug\netcoreapp3.1\Pizzles.pdb
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\obj\Debug\netcoreapp3.1\Pizzles.csprojAssemblyReference.cache
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\obj\Debug\netcoreapp3.1\Pizzles.AssemblyInfoInputs.cache
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\obj\Debug\netcoreapp3.1\Pizzles.AssemblyInfo.cs
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\obj\Debug\netcoreapp3.1\Pizzles.csproj.CoreCompileInputs.cache
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\obj\Debug\netcoreapp3.1\Pizzles.dll
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\obj\Debug\netcoreapp3.1\Pizzles.pdb
+C:\Users\نوره\Documents\Bootcamp\C#.net\LanguageFundamentals\Pizzles\obj\Debug\netcoreapp3.1\Pizzles.genruntimeconfig.cache

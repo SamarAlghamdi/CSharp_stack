@@ -1,0 +1,59 @@
+body {
+    margin: auto;
+    width: 900px;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.list{
+    border: 2px solid black;
+    height: 300px;
+    overflow: auto;
+}
+
+.item{
+    display: flex;
+}
+
+.proInfo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.form{
+    display: flex;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 50px;
+    margin-top: 20px;
+}

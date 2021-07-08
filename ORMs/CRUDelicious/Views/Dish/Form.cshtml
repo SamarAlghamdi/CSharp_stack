@@ -1,0 +1,58 @@
+@model Dishe;
+<h1>Add a new Dishe!</h1>
+<div class="container">
+    <a href="/">Home</a>
+    <div class="card p-3">
+    <form asp-action="CreateUser" asp-controller="Dish" method="post">
+        <div class="row">
+            <div class="col-md-4"> 
+                <div class="form-group">
+                    <label asp-for="Chef">Chef's Name</label>
+                    <input class="form-control" asp-for="Chef">
+                    <div><span class="text-danger" asp-validation-for="Chef"></span></div> 
+                </div>
+            <div class="row">
+            <div class="col"> 
+                <div class="form-group">
+                    <label asp-for="Name">Dishe Name</label>
+                    <input class="form-control" asp-for="Name">
+                    <div><span class="text-danger" asp-validation-for="Name"></span></div> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"> 
+                <div class="form-group">
+                    <label asp-for="Calories">Calories</label>
+                    <input class="form-control" asp-for="Calories">
+                    <div><span class="text-danger" asp-validation-for="Calories"></span></div> 
+                </div>
+            </div>                  
+        </div>
+            </div>          
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Tastiness">Tastiness</label>
+                        <select class="form-control" asp-for="Tastiness">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <div><span class="text-danger" asp-validation-for="Tastiness"></span></div> 
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label asp-for="Desciption">Desciption</label>
+                    <textarea class="form-control" rows="10" asp-for="Desciption"></textarea>
+                    <div><span class="text-danger" asp-validation-for="Desciption"></span></div> 
+                </div>
+               <input class="btn btn-primary" type="submit" value="Add Dish"/>
+            </div>
+        </div>
+
+    </form>
+    </div>
+</div>

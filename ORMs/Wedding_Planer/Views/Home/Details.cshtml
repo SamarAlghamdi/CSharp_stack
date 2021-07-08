@@ -1,0 +1,10 @@
+@model Wedding;
+
+<h1 class='text-muted my-2'>@Model.WedderOne and @Model.WedderTwo's Wedding</h1>
+<h3 class="text-muted">Date: @Model.Date.ToString("MMMM dd, yyyy")</h3>
+<h3>Guests:</h3>
+<ul>
+    @foreach(var item in Model.Guests){
+        <li>@item.User.FirstName @item.User.LastName</li>
+    }
+</ul>

@@ -1,0 +1,34 @@
+@model User
+
+   <div class="card p-3">
+   <form asp-action="create" asp-controller="User" method="post">
+   <div class='form-group'>
+      <label asp-for="FirstName">First Name</label> 
+      <input type="text" class="form-control" asp-for="FirstName">
+      <span asp-validation-for="FirstName" class="text-danger"></span>
+   </div>
+   <div class='form-group'>
+      <label asp-for="LastName">Last Name</label> 
+      <input type="text" class="form-control" asp-for="LastName">
+      <span asp-validation-for="LastName" class="text-danger"></span>
+   </div>
+   <div class='form-group'>
+      <label asp-for="Age">Age</label> 
+      <input type="date" class="form-control" asp-for="Age">
+      <span asp-validation-for="Age" class="text-danger"></span>
+   </div>
+   <div class='form-group'>
+      <label asp-for="Email">Email</label> 
+      <input type="email" class="form-control" asp-for="Email">
+      <span asp-validation-for="Email" class="text-danger"></span>
+   </div>
+   <div class='form-group'>
+      <label asp-for="Password">Password</label> 
+      <input class="form-control" asp-for="Password">
+      <span asp-validation-for="Password" class="text-danger"></span>
+   </div>
+
+   <button class="btn btn-primary" type="submit">Submit</button>
+
+   </form>
+   </div>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+    <h1><a href="/">Home</a> | Projects | <a href="/contact">Contact</a></h1>
+    <h2>Here are some projects of mine!</h2>
+    <div class="content">
+        <div class="list">
+            @{
+                @for(int i = 0; i <3;i++){
+                    <div class="item">
+                        <img src="~/images/profile.png" alt="pic"/>
+                        <div class="proInfo">
+                        <h4>Cool Thing!</h4>
+                        <p style="margin-left:20px">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aliquam, aut voluptates ratione voluptatem magnam repellat amet consequuntur labore placeat.</p>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>

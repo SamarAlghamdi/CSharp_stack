@@ -1,0 +1,18 @@
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview>dotnet new console -o hello
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on hello\hello.csproj...
+  Determining projects to restore...
+  Restored C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello\hello.csproj (in 165 ms).
+
+Restore succeeded.
+
+
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview>dotnet --version
+3.1.302
+
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview>cd hello
+
+C:\Users\نوره\Documents\Bootcamp\C#.net\Overview\hello>dotnet run
+Hello World!
